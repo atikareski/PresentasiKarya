@@ -53,11 +53,15 @@ nav ul li{
 .pesanan{
     display: flex;
     justify-content: space-between;
-    margin: 30px 40px 10px 40px;
+    margin: 30px 40px 0px 40px;
+    background-color:#FFCD44;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .kalender{
     box-sizing: border-box;
+    padding: 40px;
 }
 
 .kalender ul{
@@ -66,10 +70,9 @@ nav ul li{
 
 .month {
     padding: 70px 25px;
-    background: #1abc9c;
+    background: #94cc50;
     text-align: center;
-    margin: 40px;
-    margin-bottom: 0px;
+    margin: 0px 40px 0px 40px;
 }
   
 .month ul {
@@ -102,7 +105,7 @@ nav ul li{
   
 .weekdays li {
     display: inline-block;
-    width: 13.6%;
+    width: 13%;
     color: #666;
     text-align: center;
 }
@@ -116,7 +119,7 @@ nav ul li{
 .days li {
     list-style-type: none;
     display: inline-block;
-    width: 13.6%;
+    width: 13%;
     text-align: center;
     margin-bottom: 15px;
     font-size:12px;
@@ -125,6 +128,58 @@ nav ul li{
   
 .days li .active {
     padding: 5px;
-    background: #1abc9c;
+    background: #94cc50;
     color: white !important
 }
+
+.data{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 40px;
+    margin-top: 0px;
+    align-items: center;
+    background-color: #F69454;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.status{
+    margin: 40px 40px 40px 0px;
+}
+
+.judulstatus{
+    margin-bottom: 20px ;
+}
+
+.status p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.pembayaran{
+    text-align: center;
+    margin: 30px;
+    color: red;
+}
+
+.tambah{
+    text-align: center;
+    margin: 50px;
+}
+
+.tombol{
+    text-decoration: none;
+    color: black;
+    background-color: #FFCD44;
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #EE693F;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    justify-items: center;
+    font-size: 20px;
+} 
