@@ -116,3 +116,8 @@ input[type=button]{
 small{
     font-size: 12px;
 }
+
+.contact{
+    color: white;
+    margin-bottom: 10px;
+}
